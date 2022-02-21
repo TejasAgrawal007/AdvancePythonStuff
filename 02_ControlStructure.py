@@ -39,7 +39,7 @@
 
 # assignGrade Program.
 
-# Note  --> Assert statement used to debug code and handle the Code.
+# Note  --> Assert statement used to debug code and handle  the Condition Code.
 
 # def assignGrade(marks):
 #     assert marks >= 0 and marks <= 100
@@ -62,6 +62,76 @@
 # def main():
 #     marks = float(input("Enter You marks: "))
 #     print("Marks: ", marks, "\nGrade: ", assignGrade(marks))
+
+
+# if __name__ == "__main__":
+#     main()
+
+# program to find the Maximum Three Numbers
+
+# from numpy import maximum
+
+
+# def maximum3(n1,n2,n3):
+#     if n1 > n2:
+#         if n1 > n3:
+#             maxNumber = n1
+#         else:
+#             maxNumber = n3
+#     elif n2 > n3:
+#         maxNumber = n2
+#     else:
+#         maxNumber = n3
+#     return maxNumber
+
+
+# def main():
+#     n1 = int(input("Enter First Number: "))
+#     n2 = int(input("Enter Secound Number: "))
+#     n3 = int(input("Enter Third Number: "))
+#     maximum = maximum3(n1, n2, n3)
+#     print("Maximum Number is: ", maximum)
+
+
+# if __name__ == "__main__":
+#     main()
+
+
+
+# Program To Find Some Of First N Positive Number.
+
+# def summation(n):
+#     total = 0
+#     for count in range(1, n + 1):
+#         total += count
+#     return total
+
+
+# def main():
+#     n = int(input("Enter The Number of Turms: "))
+#     total = summation(n)
+#     print("Sum of First", n , "Positive Integer: ", total)
+
+
+# if __name__ == "__main__":
+#     main()
+
+
+
+
+
+# Program to Compute a Percentage
+
+# def main():
+#     n = int(input("Enter The Total Subject: "))
+#     totalMarks = 0
+#     print("Enter The Marks: ")
+#     for i in range(1, n + 1):
+#         marks = float(input("Subject " + str(i) + " : "))
+#         assert marks >= 0 and marks <= 100
+#         totalMarks += marks
+#     percentag = totalMarks / n
+#     print("Your Percentage is ", percentag)
 
 
 # if __name__ == "__main__":
