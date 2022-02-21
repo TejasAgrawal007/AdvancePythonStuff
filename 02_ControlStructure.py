@@ -1,4 +1,4 @@
-# 1. Makrs
+# 1. Marks
 # def moderate(marks, passMakrs):
 #     if marks == passMakrs - 1 or marks == passMakrs -2 :
 #         marks = passMakrs
@@ -108,7 +108,7 @@
 
 
 # def main():
-#     n = int(input("Enter The Number of Turms: "))
+#     n = int(input("Enter The Number of Terms: "))
 #     total = summation(n)
 #     print("Sum of First", n , "Positive Integer: ", total)
 
@@ -120,7 +120,7 @@
 
 
 
-# Program to Compute a Percentage
+# Program to Compute  Percentage
 
 # def main():
 #     n = int(input("Enter The Total Subject: "))
