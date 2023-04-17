@@ -17,9 +17,9 @@
 # 2. authenticateUser System Program
 
 # def authenticateUser(password):
-#     if password == "siya":
+#     if password == "Tejas":
 #         message = 'Login Successful !!\n Wolcome To System.'
-#     if password != "siya":
+#     if password != "Tejas":
 #         message = "Password mismatch !! \n"
 #     return message
 
@@ -259,4 +259,3 @@
 
 # if __name__ == "__main__":
 #     main()
-
