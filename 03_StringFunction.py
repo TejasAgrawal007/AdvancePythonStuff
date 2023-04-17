@@ -23,7 +23,7 @@
 # print(key)
 
 # 6. Min
-# key = min('Tejas', 'Siya', 'Akash')
+# key = min('Tejas', 'Suraj', 'Akash')
 # print(key)
 
 
